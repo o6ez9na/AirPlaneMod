@@ -5,13 +5,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/header/Header';
 import ControlledCarousel from './components/slider/Slider'
-
+import SearchAirplanes from './components/search/SearchAirplanes'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <ControlledCarousel />
+    <SearchAirplanes />
   </React.StrictMode>
 );
 

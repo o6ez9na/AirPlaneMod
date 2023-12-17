@@ -1,25 +1,23 @@
-import { Navbar, Nav, Button, NavLink } from 'react-bootstrap'
+import { Navbar, Nav, Button, NavLink , Container} from 'react-bootstrap'
 import Link from 'react-router'
+import { IoIosAirplane } from "react-icons/io";
 
 function Header() {
     return (
-        <>
-            <Navbar collapseOnSelect expand='lg' bg="dark" variant='dark'>
-                <Navbar.Brand className='px-2'>AirMonarch</Navbar.Brand>
+            <Navbar collapseOnSelect expand='lg' variant='dark'>
+                <Container>
+                <Navbar.Brand className='ps-5'><IoIosAirplane /></Navbar.Brand>
                 <Navbar.Toggle aria-controls='resposive-navbar-nav' />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className='mx-auto'>
-                        <NavLink>Home</NavLink>
+                    <Nav className='ms-5 mt-1'>
                         <NavLink>Users</NavLink>
+                        <NavLink>Home</NavLink>
                         <NavLink>About</NavLink>
-                    </Nav>
-                    <Nav>
-                        <Button variant='primary' className='mt-1 mb-1 mx-2'>Log In</Button>
-                        <Button variant='primary' className='mx-2 mt-1 mb-1'>Log Out</Button>
+                        
                     </Nav>
                 </Navbar.Collapse>
+                </Container>
             </Navbar>
-        </>
     );
 }
 

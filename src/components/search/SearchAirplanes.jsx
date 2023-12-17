@@ -13,7 +13,7 @@ const SearchAirplanes = () => {
                         </InputGroup>
                     </Col>
                     <Col xs={1} className='text-center p-0'>
-                        <HiOutlineArrowsRightLeft style={{ margin: '0', fontSize: '1.5rem' }} />
+                        <HiOutlineArrowsRightLeft style={{ margin: '0', fontSize: '2rem' }} />
                     </Col>
                     <Col xs={3} className="p-0">
                         <InputGroup>

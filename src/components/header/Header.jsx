@@ -1,5 +1,4 @@
-import { Navbar, Nav, Button, NavLink , Container} from 'react-bootstrap'
-import Link from 'react-router'
+import { Navbar, Nav, NavLink , Container} from 'react-bootstrap'
 import { IoIosAirplane } from "react-icons/io";
 
 function Header() {

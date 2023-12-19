@@ -1,7 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "react-datepicker/dist/react-datepicker.module.css"
 import './style.css'
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';

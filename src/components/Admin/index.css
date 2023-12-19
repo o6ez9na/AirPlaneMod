@@ -1,5 +1,6 @@
 .center{
     text-align: center;
+    width: max-content;
 }
 
 .align_vertical{
@@ -7,5 +8,5 @@
 }
 
 .fixed-width{
-    width: 30vh;
+    width: 300px;
 }

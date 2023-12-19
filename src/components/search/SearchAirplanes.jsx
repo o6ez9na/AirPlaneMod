@@ -1,11 +1,12 @@
-import { Row, Col, Container, Form, InputGroup } from 'react-bootstrap';
+import { Row, Col, Container, Form, InputGroup, Button } from 'react-bootstrap';
 import { HiOutlineArrowsRightLeft } from "react-icons/hi2";
 import Calendar from "../calendar/calendar.jsx"
+import './style.css'
 
 const SearchAirplanes = () => {
     return (
         <div>
-            <h1 className='mb-3 mt-3'>Оставить заявку</h1>
+            <h1 className='mb-3 mt-3 ta-center'>Оставить заявку</h1>
             <Container className="d-flex justify-content-center">
                 <Row className="justify-content-md-center">
                     <Col xs={5} className="p-0">
@@ -26,13 +27,15 @@ const SearchAirplanes = () => {
             <Container className="d-flex justify-content-center"> {/* Изменен контейнер */}
                 <Row className="my-2">
                     <Col>
-                        <Calendar placeholder='откуда' />
+                        <Calendar placeholder='откуда' className='br-10'/>
                     </Col>
                     <Col>
                         <Calendar />
                     </Col>
                 </Row>
+
             </Container>
+            <Button className='center' variant="primary">Найти</Button>
         </div>
     )
 }

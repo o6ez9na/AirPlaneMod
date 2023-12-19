@@ -12,8 +12,6 @@ const SearchAirplanes = () => {
                         <InputGroup>
                             <Form.Control placeholder='Откуда' />
                         </InputGroup>
-
-
                     </Col>
                     <Col xs={1} className='text-center p-0'>
                         <HiOutlineArrowsRightLeft style={{ margin: '0', fontSize: '2rem' }} />

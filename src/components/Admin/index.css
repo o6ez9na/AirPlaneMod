@@ -5,3 +5,7 @@
 .align_vertical{
     margin-top: 30vh;
 }
+
+.fixed-width{
+    width: 30vh;
+}

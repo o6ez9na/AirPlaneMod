@@ -7,11 +7,11 @@ export class Admin extends Component {
     return (
       <div class='align_vertical center'>
         <h1 class='center'>admin panel</h1>
-        <Container className="justify-content-center align-items-center mt-2 w-25">
+        <Container className="justify-content-center align-items-center mt-2 fixed-width">
           <div>
             <Row>
               <Col>
-                <InputGroup size='sm' className='w-40'>
+                <InputGroup size='sm' >
                   <Form.Control placeholder='login' />
                 </InputGroup>
               </Col>

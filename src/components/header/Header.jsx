@@ -9,7 +9,7 @@ function Header() {
                 <Navbar.Toggle aria-controls='resposive-navbar-nav' />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='ms-5 mt-1'>
-                        <NavLink>Users</NavLink>
+                        <NavLink>History</NavLink>
                         <NavLink>Home</NavLink>
                         <NavLink>About</NavLink>
                         

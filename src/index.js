@@ -4,18 +4,19 @@ import './style.css'
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './components/header/Header';
-import ControlledCarousel from './components/slider/Slider'
-import SearchAirplanes from './components/search/SearchAirplanes'
-import App from './components/App/App';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
+import ClientView from './components/ClientView/ClientView';
+import Admin from './components/Admin/Admin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <ControlledCarousel />
-    <SearchAirplanes />
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<ClientView />} />
+        <Route path='/admin' element={<Admin />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
